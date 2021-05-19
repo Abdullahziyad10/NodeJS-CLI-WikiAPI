@@ -1,0 +1,21 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "search using wiki api",
+  "main": "server.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server.js",
+    "test": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Abdullah",
+  "license": "ISC",
+  "dependencies": {
+    "wikiapi": "file:../wikiapi",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

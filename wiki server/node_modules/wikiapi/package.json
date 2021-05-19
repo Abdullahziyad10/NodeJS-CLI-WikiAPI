@@ -1,0 +1,14 @@
+{
+  "name": "nodewiki",
+  "version": "1.0.0",
+  "description": "Coustom Module to make http request to wikipedia api",
+  "main": "app.js",
+  "scripts": {
+    "test": "node cli.js wiki"
+  },
+  "author": "Abdullah Alshebly",
+  "license": "",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
